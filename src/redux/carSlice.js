@@ -13,6 +13,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: false,
     status: "Available",
+    image: "/public/images/onix.jpg",
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ const initialCars = [
     transmission: "Manual",
     favorite: true,
     status: "Available",
+    image: "/public/images/cobalt.jpg",
   },
   {
     id: 3,
@@ -39,6 +41,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: false,
     status: "Sold",
+    image: "/public/images/k5.jpg",
   },
   {
     id: 4,
@@ -52,6 +55,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: false,
     status: "Available",
+    image: "/public/images/elantra.jpg",
   },
   {
     id: 5,
@@ -65,6 +69,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: true,
     status: "Reserved",
+    image: "/public/images/camry.avif",
   },
   {
     id: 6,
@@ -78,6 +83,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: false,
     status: "Available",
+    image: "/public/images/x5.jpg",
   },
   {
     id: 7,
@@ -91,6 +97,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: false,
     status: "Sold",
+    image: "/public/images/c200.jpg",
   },
   {
     id: 8,
@@ -104,6 +111,7 @@ const initialCars = [
     transmission: "Automatic",
     favorite: true,
     status: "Available",
+    image: "/public/images/model3.jpg",
   },
 ];
 

@@ -21,6 +21,7 @@ export default function App() {
   const cars = useSelector((state) => state.cars.items);
   const dispatch = useDispatch();
 
+  // Delete funksiyasi
   const handleDelete = (id) => {
     if (window.confirm) {
       dispatch(deleteCar(id));
@@ -62,6 +63,7 @@ export default function App() {
           </div>
         </div>
 
+        {/* Breadcrumb & Main Action */}
         <div className="text-xs text-gray-500 mb-2">
           Inventory &gt; <span className="text-blue-400">All Vehicles</span>
         </div>
@@ -116,7 +118,10 @@ export default function App() {
               {/* Image Container */}
               <div className="relative h-48 bg-gray-900 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=80"
+                  src={
+                    car.image ||
+                    "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=600&auto=format&fit=crop&q=80"
+                  }
                   alt={car.model}
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                 />
